@@ -1,0 +1,7 @@
+body{
+    background-color: #000;
+}
+.navbar{
+    font-size: 14px;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
