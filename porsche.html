@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=My+Soul&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,35 +15,63 @@
 </head>
 <body>
     
-    <div class="col-12">
-        <div class="container-fluid bg-black">
-          <a class="navbar-brand text-light d-flex justify-content-center align-items-center" href="index.html">Paganini</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="col-4 pt-3 ps-3">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <img src="assets/images/logo_porsche.jpg" style="height: 60px; width:55px; padding-right:6px; padding-bottom:5px; margin-top: -10px;" alt="">
+          </li>
+        <li class="nav-item">
+                <a class="nav-link text-light" href="#">RACING</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="#">STORE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="#">UNIVERSE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="#">CORPORATE</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+
+<div class="col-4">
+  <div class="container-fluid bg-black">
+    <a class="navbar-brand text-light d-flex justify-content-center align-items-center" href="index.html">Paganini</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+
+  </div>    
+  <div class="col-2"></div>
+    <div class="col-2 pt-3 pe-3">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"><i></i></button>
+      </form>
+  </div>
+</nav>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
         <div id="container-meio">
             <div class="carousel-inner">
-            <div class="carousel-item active" >
+            <div class="carousel-item active" style="margin-top:30px; padding-top: 40px;">
                 <img class="d-block w-100" src="assets/images/porscheindex11.gif" alt="Primeiro Slide">
             </div>
-            <div class="carousel-item" >
+            <div class="carousel-item" style="margin-top:30px; padding-top: 40px;">
                 <img class="d-block w-100" src="assets/images/porscheindex.gif" alt="Segundo Slide">
             </div>
-            <div class="carousel-item" style="padding-top: 100px;">
+            <div class="carousel-item" style="padding-top: 50px;">
                 <img class="d-block w-100" src="assets/images/porsche1.gif" alt="Terceiro Slide">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" style="margin-top:30px; padding-top: 110px;">
               <img class="d-block w-100" src="assets/images/porscheindex2.gif" alt="Quarto Slide">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" style="margin-top:30px; padding-top: 40px;">
                 <img class="d-block w-100" src="assets/images/porshe.gif" alt="Quarto Slide">
             </div>
             </div>
@@ -54,7 +84,15 @@
             <span class="sr-only">Próximo</span>
             </a>
         </div>
-
+       
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="text-car col-8">
+            A Porsche, é uma das principais marcas de automóveis esportivos do mundo, criada na Áustria em 1931 por 
+            Ferdinand Porsche e o seu filho Ferry Porsche e hoje é sediada em Stuttgart, na Alemanha.
+          </div>
+          <div class="col-2"></div>
+        </div>
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
