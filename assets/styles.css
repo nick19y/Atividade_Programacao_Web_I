@@ -5,6 +5,9 @@ body {
     font-size: 14px;
     border-bottom: 1px solid rgb(138, 138, 138);
 }
+.btn{
+    background-color: black; color:white;
+}
 #container-meio {
     display: flex;
     justify-content: center;
@@ -27,5 +30,6 @@ body {
     font-family: 'Playball', cursive;
     font-size: 20px;
 }
+
 
 
