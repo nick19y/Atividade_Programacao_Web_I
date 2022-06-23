@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+.navbar{
+    font-size: 14px;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+.btn{
+    background-color: black; color:white;
+}
+#container-meio {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+}
+
+.carousel-inner {
+    width: 800px;
+    height: 700px;
+}
+.text-car{
+    color: rgb(164, 162, 162);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+}
+
+
+
