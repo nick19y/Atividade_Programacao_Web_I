@@ -1,0 +1,38 @@
+.comeco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    padding-top: 100px;
+}
+
+.p-1 {
+    width: 650px;
+    outline: 2px solid grey;
+    color: #ffffff;
+    font-family: gstatic;
+    font-size: 33px;
+    text-align: center;
+}
+
+.comeco-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-2 {
+    width: 650px;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 21px;
+    text-align: center;
+}
